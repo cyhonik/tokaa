@@ -76,7 +76,11 @@ mic.onresult = function (intent, entities) {
 
     if (randomContent !== undefined) {
       document.getElementById("audio").src = randomContent.path;
-      srcSet = true;
+      document.getElementById("audio").oncanplay = () => {
+          srcSet = true;
+          document.body.style.backgroundColor = "blue";
+          // TODO MORE SUBTLE FEEDBACK!
+      };
     }
     else {
       console.log(possibleContent)
