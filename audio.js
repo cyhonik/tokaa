@@ -115,5 +115,6 @@ document.addEventListener("click", () => {
     if (srcSet) {
       console.log("play");
       document.getElementById("audio").play();
+      document.body.style.backgroundColor = "orange";
     }
 }, false);
