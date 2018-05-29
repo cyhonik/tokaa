@@ -27,10 +27,14 @@ const content = [
 ];
 
 function findContentWithSimilarTimeTo(numberOfSeconds) {
-  const thresholdSeconds = 60 * 1; // <<<< Can adjust this threshold
+  const thresholdSeconds = 60 * 1; // <<<< TODO Can adjust this threshold
   const similar = content.filter(item => {
     return Math.abs(item.durationInSeconds - numberOfSeconds) < thresholdSeconds;
   });
+
+  if (similar.length === 0) {
+    return content.slice(0, 1);
+  }
 
   return similar;
 }
@@ -49,15 +53,18 @@ var error = function (msg) {
 mic.onready = function () {
   info("Microphone is ready to record");
 };
+
 mic.onaudiostart = function () {
   info("Recording started");
-  error("");
   document.body.style.backgroundColor = "red";
+  // TODO MORE SUBTLE FEEDBACK!
 };
 mic.onaudioend = function () {
   info("Recording stopped, processing started");
   document.body.style.backgroundColor = "green";
+  // TODO MORE SUBTLE FEEDBACK!
 };
+
 mic.onresult = function (intent, entities) {
   if ("duration" in entities) {
     const numberOfSeconds = entities.duration.value;
@@ -66,7 +73,13 @@ mic.onresult = function (intent, entities) {
     const randomIndex = Math.floor(Math.random() * possibleContent.length);
     const randomContent = possibleContent[randomIndex];
 
-    document.getElementById("audio").src = randomContent.path;
+    if (randomContent !== undefined) {
+      document.getElementById("audio").src = randomContent.path;
+    }
+    else {
+      console.log(possibleContent)
+      console.error("did not get any content");
+    }
   }
 };
 mic.onerror = function (err) {

@@ -1,4 +1,6 @@
 document.addEventListener("click", () => {
-  const url = `${location.origin}/tokaa/${nextPage}`;
-  location.replace(url);
+  if (nextPage !== undefined) {
+    const url = `${location.origin}/tokaa/${nextPage}`;
+    location.replace(url);
+  }
 }, false);
