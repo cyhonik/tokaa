@@ -75,6 +75,7 @@ mic.onresult = function (intent, entities) {
 
     if (randomContent !== undefined) {
       document.getElementById("audio").src = randomContent.path;
+      document.getElementById("audio").play();
     }
     else {
       console.log(possibleContent)
