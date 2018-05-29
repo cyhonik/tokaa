@@ -107,7 +107,9 @@ function kv (k, v) {
 
 document.addEventListener("click", () => {
     micElement.click();
+    console.log("clicked", srcSet);
     if (srcSet) {
+      console.log("play");
       document.getElementById("audio").play();
     }
 }, false);
