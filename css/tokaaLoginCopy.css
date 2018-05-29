@@ -1,0 +1,852 @@
+
+@font-face {
+  font-family: "SFProDisplay-Medium";
+  src: url('../fonts/SF-Pro-Display-Medium.otf') format("opentype");
+}
+
+.tokaalogincopy {
+  width               : 100%;
+  min-width           : 375px;
+  height              : 100vh;
+  min-height          : 667px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(251, 251, 251, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.tokaalogincopy .rectangle4 {
+  background-color    : rgba(78, 78, 78, 1.0);
+  top                 : 0px;
+  height              : 667px;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.tokaalogincopy .seekbar {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 479px;
+  height              : 73px;
+  width               : 315px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+}
+.tokaalogincopy .seekbar .seekbar1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 315px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle41 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 17px;
+  height              : 12px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 14px;
+  height              : 18px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy2 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 12px;
+  height              : 22px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy3 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 3px;
+  height              : 40px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy4 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 15px;
+  height              : 15px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy5 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 13px;
+  height              : 21px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy6 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 8px;
+  height              : 30px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 36px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy7 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 3px;
+  height              : 40px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 42px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy8 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 12px;
+  height              : 22px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy9 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 5px;
+  height              : 36px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 54px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy10 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 13px;
+  height              : 21px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 60px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy11 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 3px;
+  height              : 40px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 66px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy12 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 12px;
+  height              : 22px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy13 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 8px;
+  height              : 31px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 78px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy14 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 8px;
+  height              : 30px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 84px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy15 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 12px;
+  height              : 22px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 90px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy16 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 96px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy33 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 14px;
+  height              : 18px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 102px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy32 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 5px;
+  height              : 36px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 108px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy31 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 6px;
+  height              : 32px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 114px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy30 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 13px;
+  height              : 21px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 120px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy29 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 13px;
+  height              : 21px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 126px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy28 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 5px;
+  height              : 35px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 132px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy27 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 15px;
+  height              : 15px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 138px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy26 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 6px;
+  height              : 33px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 144px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy25 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 13px;
+  height              : 21px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 150px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy24 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 156px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy23 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 13px;
+  height              : 21px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 162px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy22 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 13px;
+  height              : 21px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 168px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy21 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 15px;
+  height              : 15px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 174px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy20 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 5px;
+  height              : 35px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 180px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy19 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 9px;
+  height              : 27px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 186px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy18 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 4px;
+  height              : 39px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 192px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy17 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 12px;
+  height              : 22px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 198px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy50 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 6px;
+  height              : 33px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 204px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy49 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 9px;
+  height              : 27px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 210px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy48 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 8px;
+  height              : 30px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 216px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy47 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 12px;
+  height              : 22px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 222px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy46 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 8px;
+  height              : 31px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 228px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy45 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 15px;
+  height              : 15px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 234px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy44 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 12px;
+  height              : 22px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 240px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy43 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 13px;
+  height              : 21px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 246px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy42 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 12px;
+  height              : 22px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 252px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy41 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 5px;
+  height              : 36px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 258px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy40 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 13px;
+  height              : 21px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 264px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy39 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 15px;
+  height              : 15px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 270px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy38 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 8px;
+  height              : 30px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 276px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy37 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 13px;
+  height              : 21px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 282px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy36 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 12px;
+  height              : 22px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 288px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy35 {
+  background-color    : rgba(80, 226, 193, 1.0);
+  top                 : 15px;
+  height              : 15px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 294px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy34 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 12px;
+  height              : 22px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 300px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy51 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 8px;
+  height              : 31px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 306px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .seekbar1 .rectangle4copy52 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 13px;
+  height              : 21px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 312px;
+  border-radius       : 1px;
+}
+.tokaalogincopy .seekbar .duration {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 59px;
+  height              : 14px;
+  width               : 315px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.tokaalogincopy .seekbar .duration .a0336 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SFProDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(182, 182, 182, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.tokaalogincopy .seekbar .duration .a0122 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 285px;
+  font-family         : "SFProDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(183, 183, 183, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.tokaalogincopy .tagline {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 359px;
+  height              : auto;
+  width               : 315px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  font-family         : "Avenir-Black", Helvetica, Arial, serif;
+  font-size           : 48.0px;
+  color               : rgba(227, 227, 227, 1.0);
+  text-align          : center;
+  line-height         : 66.0px;
+}
+.tokaalogincopy .statusbardark {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.tokaalogincopy .statusbardark .container {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  opacity             : 0.0;
+}
+.tokaalogincopy .statusbardark .a100 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 309px;
+  font-family         : "AppleSystemUIFont", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : right;
+  line-height         : 16.0px;
+}
+.tokaalogincopy .statusbardark .battery {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 5px;
+  height              : 10px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 345px;
+}
+.tokaalogincopy .statusbardark .bluetooth {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 14px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 297px;
+  opacity             : 0.4;
+}
+.tokaalogincopy .statusbardark .wifi {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 5px;
+  height              : 10px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 89px;
+}
+.tokaalogincopy .statusbardark .carrier {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 44px;
+  font-family         : "AppleSystemUIFont", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.tokaalogincopy .statusbardark .time {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 162px;
+  font-family         : "AppleSystemUIFont", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.tokaalogincopy .statusbardark .signal {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 7px;
+  height              : 6px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.tokaalogincopy .logo2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 212px;
+  height              : 97px;
+  width               : 97px;
+  position            : absolute;
+  margin              : 0;
+  left                : 144px;
+}
+.tokaalogincopy .oval {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 100px;
+  height              : 210px;
+  width               : 210px;
+  position            : absolute;
+  margin              : 0;
+  left                : 83px;
+}
+.tokaalogincopy .oval2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 131px;
+  height              : 149px;
+  width               : 149px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+}
+.tokaalogincopy .oval3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 165px;
+  height              : 78px;
+  width               : 78px;
+  position            : absolute;
+  margin              : 0;
+  left                : 149px;
+}
+.tokaalogincopy .oval31 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 165px;
+  height              : 78px;
+  width               : 78px;
+  position            : absolute;
+  margin              : 0;
+  left                : 149px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
