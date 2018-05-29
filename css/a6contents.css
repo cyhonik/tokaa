@@ -1,0 +1,589 @@
+
+
+.a6contents {
+  width               : 100%;
+  min-width           : 750px;
+  height              : 100vh;
+  min-height          : 1334px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.a6contents .bg {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 1334px;
+  width               : 750px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+}
+.a6contents .bg .bg1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 1334px;
+  width               : 750px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a6contents .bg .img {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -26px;
+  height              : 1397px;
+  width               : 962px;
+  position            : absolute;
+  margin              : 0;
+  left                : -135px;
+  opacity             : 0.6;
+}
+.a6contents .a3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 979px;
+  height              : 360px;
+  width               : 750px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a6contents .a3 .bg2 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 360px;
+  width               : 750px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  opacity             : 0.1;
+}
+.a6contents .a3 .partywiththeeames {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 110px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 442px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 40.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 55.0px;
+}
+.a6contents .a3 .count {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 224px;
+  height              : 81px;
+  width               : 81px;
+  position            : absolute;
+  margin              : 0;
+  left                : 522px;
+}
+.a6contents .a3 .count .oval {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 81px;
+  width               : 81px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  opacity             : 0.1;
+}
+.a6contents .a3 .count .a15mins {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 51px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 2.0px;
+  line-height         : 30.0px;
+}
+.a6contents .a3 .img1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 360px;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+}
+.a6contents .a3 .img1 .bg3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 360px;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a6contents .a3 .img1 .img2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -28px;
+  height              : 405px;
+  width               : 432px;
+  position            : absolute;
+  margin              : 0;
+  left                : -34px;
+}
+.a6contents .a2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 604px;
+  height              : 360px;
+  width               : 750px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a6contents .a2 .count1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 219px;
+  height              : 81px;
+  width               : 81px;
+  position            : absolute;
+  margin              : 0;
+  left                : 524px;
+}
+.a6contents .a2 .count1 .oval1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 81px;
+  width               : 81px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  opacity             : 0.1;
+}
+.a6contents .a2 .count1 .a10mins {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 51px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 2.0px;
+  line-height         : 30.0px;
+}
+.a6contents .a2 .bg4 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 360px;
+  width               : 750px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  opacity             : 0.1;
+}
+.a6contents .a2 .forseagullsmating {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 65px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 441px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 40.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 55.0px;
+}
+.a6contents .a2 .img3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 360px;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+}
+.a6contents .a2 .img3 .bg5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 360px;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a6contents .a2 .img3 .img4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -24px;
+  height              : 416px;
+  width               : 437px;
+  position            : absolute;
+  margin              : 0;
+  left                : -37px;
+}
+.a6contents .a1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 229px;
+  height              : 360px;
+  width               : 750px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a6contents .a1 .bg6 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 360px;
+  width               : 750px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  opacity             : 0.1;
+}
+.a6contents .a1 .count2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 228px;
+  height              : 81px;
+  width               : 81px;
+  position            : absolute;
+  margin              : 0;
+  left                : 517px;
+}
+.a6contents .a1 .count2 .oval2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 81px;
+  width               : 81px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  opacity             : 0.1;
+}
+.a6contents .a1 .count2 .a8mins {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 51px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 2.0px;
+  line-height         : 30.0px;
+}
+.a6contents .a1 .renredzepionnoma {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 114px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 428px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 40.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 55.0px;
+}
+.a6contents .a1 .img5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 360px;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+}
+.a6contents .a1 .img5 .bg7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 360px;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  opacity             : 0.0;
+}
+.a6contents .a1 .img5 .img6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -22px;
+  height              : 412px;
+  width               : 446px;
+  position            : absolute;
+  margin              : 0;
+  left                : -43px;
+}
+.a6contents .tabs {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 158px;
+  height              : 41px;
+  width               : 522px;
+  position            : absolute;
+  margin              : 0;
+  left                : 119px;
+}
+.a6contents .tabs .active {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 39px;
+  height              : 2px;
+  width               : 97px;
+  position            : absolute;
+  margin              : 0;
+  left                : 419px;
+}
+.a6contents .tabs .recent {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 417px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 2.0px;
+  line-height         : 33.0px;
+}
+.a6contents .tabs .popular {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 195px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 2.0px;
+  line-height         : 33.0px;
+}
+.a6contents .tabs .active1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 2.0px;
+  line-height         : 33.0px;
+}
+.a6contents .navbar {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 128px;
+  width               : 750px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a6contents .navbar .bounds {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 128px;
+  width               : 750px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a6contents .navbar .search {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 58px;
+  height              : 50px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 673px;
+}
+.a6contents .navbar .search .group {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : 44px;
+  width               : 45px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.a6contents .navbar .search .bounds1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a6contents .navbar .content {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 60px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 307px;
+  font-family         : "Avenir-Black", Helvetica, Arial, serif;
+  font-size           : 34.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.5px;
+  line-height         : 46.0px;
+}
+.a6contents .navbar .menu {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 58px;
+  height              : 50px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+}
+.a6contents .navbar .menu .group1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 8px;
+  height              : 34px;
+  width               : 42px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+}
+.a6contents .navbar .menu .group1 .line {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 2px;
+  width               : 42px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a6contents .navbar .menu .group1 .line1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 16px;
+  height              : 2px;
+  width               : 42px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a6contents .navbar .menu .group1 .line2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 32px;
+  height              : 2px;
+  width               : 42px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a6contents .navbar .menu .bounds2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

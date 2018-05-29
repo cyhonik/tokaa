@@ -1,0 +1,196 @@
+
+
+.a2 {
+  width               : 100%;
+  min-width           : 375px;
+  height              : 100vh;
+  min-height          : 667px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.a2 .a5416big {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 410px;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a2 .back {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 410px;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a2 .navigationbar {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 31px;
+  height              : 24px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+}
+.a2 .statusbarblack {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a2 .book {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 33px;
+  height              : 238px;
+  width               : 158px;
+  position            : absolute;
+  margin              : 0;
+  left                : 109px;
+}
+.a2 .renee {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 34px;
+  height              : 234px;
+  width               : 154px;
+  position            : absolute;
+  margin              : 0;
+  left                : 111px;
+}
+.a2 .renredzepionnoma {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 283px;
+  height              : 54px;
+  width               : 172px;
+  position            : absolute;
+  margin              : 0;
+  left                : 102px;
+}
+.a2 .lisaabend {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 347px;
+  height              : 22px;
+  width               : 80px;
+  position            : absolute;
+  margin              : 0;
+  left                : 144px;
+}
+.a2 .buttonreadnow {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 382px;
+  height              : 54px;
+  width               : 204px;
+  position            : absolute;
+  margin              : 0;
+  left                : 86px;
+}
+.a2 .button {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 382px;
+  height              : 54px;
+  width               : 54px;
+  position            : absolute;
+  margin              : 0;
+  left                : 296px;
+}
+.a2 .info {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 459px;
+  height              : 396px;
+  width               : 345px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

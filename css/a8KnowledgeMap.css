@@ -1,0 +1,844 @@
+
+
+.a8knowledgemap {
+  width               : 100%;
+  min-width           : 750px;
+  height              : 100vh;
+  min-height          : 1334px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.a8knowledgemap .bg {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 1334px;
+  width               : 750px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+}
+.a8knowledgemap .bg .bg1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 1334px;
+  width               : 750px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a8knowledgemap .bg .img {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -26px;
+  height              : 1397px;
+  width               : 962px;
+  position            : absolute;
+  margin              : 0;
+  left                : -135px;
+  opacity             : 0.6;
+}
+.a8knowledgemap .group {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 421px;
+  height              : 1070px;
+  width               : 1032px;
+  position            : absolute;
+  margin              : 0;
+  left                : -153px;
+}
+.a8knowledgemap .group .group1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 730px;
+  height              : 278px;
+  width               : 280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 613px;
+}
+.a8knowledgemap .group .group1 .oval {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 278px;
+  width               : 280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  opacity             : 0.1;
+}
+.a8knowledgemap .group .group1 .group2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 87px;
+  height              : 64px;
+  width               : 103px;
+  position            : absolute;
+  margin              : 0;
+  left                : 89px;
+}
+.a8knowledgemap .group .group1 .group2 .a220k {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 40px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  opacity             : 0.5;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 2.0px;
+  line-height         : 24.0px;
+}
+.a8knowledgemap .group .group1 .group2 .science {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 2.0px;
+}
+.a8knowledgemap .group .group3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 690px;
+  height              : 380px;
+  width               : 380px;
+  position            : absolute;
+  margin              : 0;
+  left                : 192px;
+}
+.a8knowledgemap .group .group3 .oval1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 380px;
+  width               : 380px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  opacity             : 0.1;
+}
+.a8knowledgemap .group .group3 .group4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 138px;
+  height              : 64px;
+  width               : 83px;
+  position            : absolute;
+  margin              : 0;
+  left                : 149px;
+}
+.a8knowledgemap .group .group3 .group4 .a320k {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 40px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  opacity             : 0.5;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 2.0px;
+  line-height         : 24.0px;
+}
+.a8knowledgemap .group .group3 .group4 .travel {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 2.0px;
+}
+.a8knowledgemap .group .group5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 440px;
+  height              : 328px;
+  width               : 330px;
+  position            : absolute;
+  margin              : 0;
+  left                : 616px;
+}
+.a8knowledgemap .group .group5 .oval2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 328px;
+  width               : 330px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  opacity             : 0.1;
+}
+.a8knowledgemap .group .group5 .group6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 112px;
+  height              : 64px;
+  width               : 91px;
+  position            : absolute;
+  margin              : 0;
+  left                : 120px;
+}
+.a8knowledgemap .group .group5 .group6 .a270k {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 40px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  opacity             : 0.5;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 2.0px;
+  line-height         : 24.0px;
+}
+.a8knowledgemap .group .group5 .group6 .beauty {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 2.0px;
+}
+.a8knowledgemap .group .selected {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 646px;
+  height              : 198px;
+  width               : 198px;
+  position            : absolute;
+  margin              : 0;
+  left                : 493px;
+}
+.a8knowledgemap .group .selected .oval3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 198px;
+  width               : 198px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a8knowledgemap .group .selected .selected1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 54px;
+  height              : 50px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 74px;
+}
+.a8knowledgemap .group .selected .selected1 .group7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 12px;
+  height              : 28px;
+  width               : 35px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+}
+.a8knowledgemap .group .selected .selected1 .group7 .shape {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 35px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.a8knowledgemap .group .selected .selected1 .bounds {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a8knowledgemap .group .group8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 569px;
+  height              : 278px;
+  width               : 280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a8knowledgemap .group .group8 .oval4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 278px;
+  width               : 280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  opacity             : 0.1;
+}
+.a8knowledgemap .group .group8 .group9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 87px;
+  height              : 64px;
+  width               : 85px;
+  position            : absolute;
+  margin              : 0;
+  left                : 98px;
+}
+.a8knowledgemap .group .group8 .group9 .a220k1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 40px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  opacity             : 0.5;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 2.0px;
+  line-height         : 24.0px;
+}
+.a8knowledgemap .group .group8 .group9 .health {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 2.0px;
+}
+.a8knowledgemap .group .selected2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 260px;
+  height              : 218px;
+  width               : 218px;
+  position            : absolute;
+  margin              : 0;
+  left                : 627px;
+}
+.a8knowledgemap .group .selected2 .oval5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 218px;
+  width               : 218px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a8knowledgemap .group .selected2 .selected3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 64px;
+  height              : 50px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 84px;
+}
+.a8knowledgemap .group .selected2 .selected3 .group10 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 12px;
+  height              : 28px;
+  width               : 35px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+}
+.a8knowledgemap .group .selected2 .selected3 .group10 .shape1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 35px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.a8knowledgemap .group .selected2 .selected3 .bounds1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a8knowledgemap .group .group11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 220px;
+  height              : 510px;
+  width               : 510px;
+  position            : absolute;
+  margin              : 0;
+  left                : 166px;
+}
+.a8knowledgemap .group .group11 .oval6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 510px;
+  width               : 510px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  opacity             : 0.1;
+}
+.a8knowledgemap .group .group11 .group12 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 203px;
+  height              : 64px;
+  width               : 61px;
+  position            : absolute;
+  margin              : 0;
+  left                : 225px;
+}
+.a8knowledgemap .group .group11 .group12 .a450k {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 40px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  opacity             : 0.5;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 2.0px;
+  line-height         : 24.0px;
+}
+.a8knowledgemap .group .group11 .group12 .food {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 2.0px;
+}
+.a8knowledgemap .group .group13 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 79px;
+  height              : 278px;
+  width               : 280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 752px;
+}
+.a8knowledgemap .group .group13 .oval7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 278px;
+  width               : 280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  opacity             : 0.1;
+}
+.a8knowledgemap .group .group13 .group14 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 87px;
+  height              : 64px;
+  width               : 91px;
+  position            : absolute;
+  margin              : 0;
+  left                : 95px;
+}
+.a8knowledgemap .group .group13 .group14 .a220k2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 40px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  opacity             : 0.5;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 2.0px;
+  line-height         : 24.0px;
+}
+.a8knowledgemap .group .group13 .group14 .nature {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 2.0px;
+}
+.a8knowledgemap .group .selected4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 318px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 472px;
+}
+.a8knowledgemap .group .selected4 .oval8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 318px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a8knowledgemap .group .selected4 .selected5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 114px;
+  height              : 50px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 135px;
+}
+.a8knowledgemap .group .selected4 .selected5 .group15 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 12px;
+  height              : 28px;
+  width               : 35px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+}
+.a8knowledgemap .group .selected4 .selected5 .group15 .shape2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 35px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.a8knowledgemap .group .selected4 .selected5 .bounds2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a8knowledgemap .group .group16 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 51px;
+  height              : 208px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 303px;
+}
+.a8knowledgemap .group .group16 .oval9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 208px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  opacity             : 0.1;
+}
+.a8knowledgemap .group .group16 .group17 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 52px;
+  height              : 64px;
+  width               : 77px;
+  position            : absolute;
+  margin              : 0;
+  left                : 66px;
+}
+.a8knowledgemap .group .group16 .group17 .a150k {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 40px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  opacity             : 0.5;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 2.0px;
+  line-height         : 24.0px;
+}
+.a8knowledgemap .group .group16 .group17 .books {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 2.0px;
+}
+.a8knowledgemap .group .group18 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 84px;
+  height              : 238px;
+  width               : 238px;
+  position            : absolute;
+  margin              : 0;
+  left                : 103px;
+}
+.a8knowledgemap .group .group18 .oval10 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 238px;
+  width               : 238px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  opacity             : 0.1;
+}
+.a8knowledgemap .group .group18 .group19 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 67px;
+  height              : 64px;
+  width               : 97px;
+  position            : absolute;
+  margin              : 0;
+  left                : 71px;
+}
+.a8knowledgemap .group .group18 .group19 .a180k {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 40px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  opacity             : 0.5;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 2.0px;
+  line-height         : 24.0px;
+}
+.a8knowledgemap .group .group18 .group19 .garden {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 2.0px;
+}
+.a8knowledgemap .a02 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 45px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 170px;
+  opacity             : 0.1;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 300.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 10.0px;
+}
+.a8knowledgemap .map {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 190px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 253px;
+  font-family         : "Avenir-Black", Helvetica, Arial, serif;
+  font-size           : 70.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.0px;
+  line-height         : 96.0px;
+}
+.a8knowledgemap .skip {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 70px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 622px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : right;
+  letter-spacing      : 6.0px;
+  line-height         : 24.0px;
+}
+.a8knowledgemap .pagination {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 77px;
+  height              : 12px;
+  width               : 96px;
+  position            : absolute;
+  margin              : 0;
+  left                : 60px;
+}
+.a8knowledgemap .pagination .oval11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 84px;
+  opacity             : 0.3;
+}
+.a8knowledgemap .pagination .oval12 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 42px;
+}
+.a8knowledgemap .pagination .oval13 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  opacity             : 0.3;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

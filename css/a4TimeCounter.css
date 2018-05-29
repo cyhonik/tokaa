@@ -1,0 +1,555 @@
+
+
+.a4timecounter {
+  width               : 100%;
+  min-width           : 754px;
+  height              : 100vh;
+  min-height          : 1334px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.a4timecounter .bg {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 1334px;
+  width               : 750px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  overflow            : hidden;
+}
+.a4timecounter .bg .bg1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 1334px;
+  width               : 750px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a4timecounter .bg .img {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -26px;
+  height              : 1397px;
+  width               : 962px;
+  position            : absolute;
+  margin              : 0;
+  left                : -135px;
+  opacity             : 0.6;
+}
+.a4timecounter .a4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1157px;
+  height              : 32px;
+  width               : 548px;
+  position            : absolute;
+  margin              : 0;
+  left                : 156px;
+}
+.a4timecounter .a4 .oldstreet {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 32.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : justify;
+  line-height         : 44.0px;
+}
+.a4timecounter .a4 .a10mins {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 454px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 26.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : right;
+  line-height         : 36.0px;
+}
+.a4timecounter .line {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1100px;
+  height              : 2px;
+  width               : 750px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  opacity             : 0.1;
+}
+.a4timecounter .a3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 977px;
+  height              : 32px;
+  width               : 548px;
+  position            : absolute;
+  margin              : 0;
+  left                : 156px;
+}
+.a4timecounter .a3 .meeting {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 32.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : justify;
+  line-height         : 44.0px;
+}
+.a4timecounter .a3 .a10mins1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 454px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 26.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : right;
+  line-height         : 36.0px;
+}
+.a4timecounter .line1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 920px;
+  height              : 2px;
+  width               : 750px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  opacity             : 0.1;
+}
+.a4timecounter .a2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 797px;
+  height              : 73px;
+  width               : 549px;
+  position            : absolute;
+  margin              : 0;
+  left                : 155px;
+}
+.a4timecounter .a2 .restaurant {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 47px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  opacity             : 0.5;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 26.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : justify;
+  line-height         : 36.0px;
+}
+.a4timecounter .a2 .wagamama {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 32.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : justify;
+  line-height         : 44.0px;
+}
+.a4timecounter .a2 .a5mins {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 470px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 26.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : right;
+  line-height         : 36.0px;
+}
+.a4timecounter .line2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 740px;
+  height              : 2px;
+  width               : 750px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  opacity             : 0.1;
+}
+.a4timecounter .a1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 644px;
+  height              : 32px;
+  width               : 550px;
+  position            : absolute;
+  margin              : 0;
+  left                : 154px;
+}
+.a4timecounter .a1 .greenpark {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 32.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : justify;
+  line-height         : 44.0px;
+}
+.a4timecounter .a1 .a10mins2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 456px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 26.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : right;
+  line-height         : 36.0px;
+}
+.a4timecounter .tasks {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 320px;
+  height              : 260px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 254px;
+}
+.a4timecounter .tasks .tasks1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 260px;
+  width               : 240px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.a4timecounter .tasks .tasks1 .oval {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 240px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a4timecounter .tasks .tasks1 .a35mins {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 60px;
+  height              : auto;
+  width               : 180px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  font-family         : "Avenir-Black", Helvetica, Arial, serif;
+  font-size           : 100.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 137.0px;
+}
+.a4timecounter .date {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 128px;
+  height              : 122px;
+  width               : 174px;
+  position            : absolute;
+  margin              : 0;
+  left                : 291px;
+}
+.a4timecounter .date .july182018 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 100px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  opacity             : 0.5;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 2.0px;
+  line-height         : 30.0px;
+}
+.a4timecounter .date .daily {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  font-family         : "Avenir-Black", Helvetica, Arial, serif;
+  font-size           : 70.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.0px;
+  line-height         : 96.0px;
+}
+.a4timecounter .navbar {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 128px;
+  width               : 750px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+}
+.a4timecounter .navbar .bounds {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 128px;
+  width               : 750px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a4timecounter .navbar .a67 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 60px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 588px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 32.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : right;
+  letter-spacing      : 1.0px;
+  line-height         : 44.0px;
+}
+.a4timecounter .navbar .weather {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 58px;
+  height              : 50px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 671px;
+}
+.a4timecounter .navbar .weather .group {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : 37px;
+  width               : 48px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+}
+.a4timecounter .navbar .weather .group .shape {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 35px;
+  width               : 48px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a4timecounter .navbar .weather .group .shape1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+}
+.a4timecounter .navbar .weather .bounds1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a4timecounter .navbar .menu {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 58px;
+  height              : 50px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+}
+.a4timecounter .navbar .menu .group1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 8px;
+  height              : 34px;
+  width               : 42px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+}
+.a4timecounter .navbar .menu .group1 .line3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 2px;
+  width               : 42px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a4timecounter .navbar .menu .group1 .line4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 16px;
+  height              : 2px;
+  width               : 42px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a4timecounter .navbar .menu .group1 .line5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 32px;
+  height              : 2px;
+  width               : 42px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a4timecounter .navbar .menu .bounds2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a4timecounter .path2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 313px;
+  height              : 18px;
+  width               : 194px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a4timecounter .info {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 158px;
+  height              : auto;
+  width               : 345px;
+  position            : absolute;
+  margin              : 0;
+  left                : -330px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(56, 56, 56, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

@@ -1,0 +1,1315 @@
+
+
+.a5calendar {
+  width               : 100%;
+  min-width           : 750px;
+  height              : 100vh;
+  min-height          : 1334px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.a5calendar .bg {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 1334px;
+  width               : 750px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+}
+.a5calendar .bg .bg1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 1334px;
+  width               : 750px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a5calendar .bg .img {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -26px;
+  height              : 1397px;
+  width               : 962px;
+  position            : absolute;
+  margin              : 0;
+  left                : -135px;
+  opacity             : 0.6;
+}
+.a5calendar .calendar {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 168px;
+  height              : 1071px;
+  width               : 751px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a5calendar .calendar .dates {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1040px;
+  height              : 30px;
+  width               : 632px;
+  position            : absolute;
+  margin              : 0;
+  left                : 61px;
+}
+.a5calendar .calendar .dates .a4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 592px;
+  opacity             : 0.5;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 41.0px;
+}
+.a5calendar .calendar .dates .a3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 495px;
+  opacity             : 0.5;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 41.0px;
+}
+.a5calendar .calendar .dates .a2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 396px;
+  opacity             : 0.5;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 41.0px;
+}
+.a5calendar .calendar .dates .a1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 297px;
+  opacity             : 0.5;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 41.0px;
+}
+.a5calendar .calendar .dates .a31 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 198px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 41.0px;
+}
+.a5calendar .calendar .dates .a30 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 99px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 41.0px;
+}
+.a5calendar .calendar .dates .a29 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 41.0px;
+}
+.a5calendar .calendar .line {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 455px;
+  height              : 1px;
+  width               : 750px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a5calendar .calendar .dates1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 942px;
+  height              : 53px;
+  width               : 632px;
+  position            : absolute;
+  margin              : 0;
+  left                : 61px;
+}
+.a5calendar .calendar .dates1 .a28 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 592px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 41.0px;
+}
+.a5calendar .calendar .dates1 .notification {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 42px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 508px;
+  border-radius       : 5px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(255, 255, 255, 1.0);
+  opacity             : 0.5;
+}
+.a5calendar .calendar .dates1 .a27 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 495px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 41.0px;
+}
+.a5calendar .calendar .dates1 .a26 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 396px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 41.0px;
+}
+.a5calendar .calendar .dates1 .a25 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 297px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 41.0px;
+}
+.a5calendar .calendar .dates1 .notification1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 40px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 211px;
+  border-radius       : 5px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(255, 255, 255, 1.0);
+  opacity             : 0.5;
+}
+.a5calendar .calendar .dates1 .a24 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 198px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 41.0px;
+}
+.a5calendar .calendar .dates1 .a23 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 99px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 41.0px;
+}
+.a5calendar .calendar .dates1 .a22 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 41.0px;
+}
+.a5calendar .calendar .line1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 357px;
+  height              : 1px;
+  width               : 750px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a5calendar .calendar .dates2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 258px;
+  height              : 100px;
+  width               : 632px;
+  position            : absolute;
+  margin              : 0;
+  left                : 61px;
+}
+.a5calendar .calendar .dates2 .a21 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 32px;
+  height              : auto;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 592px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 41.0px;
+}
+.a5calendar .calendar .dates2 .a20 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 32px;
+  height              : auto;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 495px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 41.0px;
+}
+.a5calendar .calendar .dates2 .notification2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 72px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 413px;
+  border-radius       : 5px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(255, 255, 255, 1.0);
+  opacity             : 0.5;
+}
+.a5calendar .calendar .dates2 .a19 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 32px;
+  height              : auto;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 396px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 41.0px;
+}
+.a5calendar .calendar .dates2 .selected {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 100px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 268px;
+  opacity             : 0.1;
+}
+.a5calendar .calendar .dates2 .notification3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 73px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 312px;
+  border-radius       : 5px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(255, 255, 255, 1.0);
+  opacity             : 0.5;
+}
+.a5calendar .calendar .dates2 .a18 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 32px;
+  height              : auto;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 297px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 41.0px;
+}
+.a5calendar .calendar .dates2 .a17 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 32px;
+  height              : auto;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 198px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 41.0px;
+}
+.a5calendar .calendar .dates2 .notification4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 72px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 115px;
+  border-radius       : 5px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(255, 255, 255, 1.0);
+  opacity             : 0.5;
+}
+.a5calendar .calendar .dates2 .a16 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 32px;
+  height              : auto;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 99px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 41.0px;
+}
+.a5calendar .calendar .dates2 .a15 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 32px;
+  height              : auto;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 41.0px;
+}
+.a5calendar .calendar .line2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 259px;
+  height              : 1px;
+  width               : 750px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a5calendar .calendar .dates3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 192px;
+  height              : 52px;
+  width               : 632px;
+  position            : absolute;
+  margin              : 0;
+  left                : 61px;
+}
+.a5calendar .calendar .dates3 .a14 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 592px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 41.0px;
+}
+.a5calendar .calendar .dates3 .notification5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 41px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 510px;
+  border-radius       : 5px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(255, 255, 255, 1.0);
+  opacity             : 0.5;
+}
+.a5calendar .calendar .dates3 .a13 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 495px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 41.0px;
+}
+.a5calendar .calendar .dates3 .a12 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 396px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 41.0px;
+}
+.a5calendar .calendar .dates3 .notification6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 41px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 313px;
+  border-radius       : 5px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(255, 255, 255, 1.0);
+  opacity             : 0.5;
+}
+.a5calendar .calendar .dates3 .a11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 297px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 41.0px;
+}
+.a5calendar .calendar .dates3 .notification7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 40px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 212px;
+  border-radius       : 5px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(255, 255, 255, 1.0);
+  opacity             : 0.5;
+}
+.a5calendar .calendar .dates3 .a10 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 198px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 41.0px;
+}
+.a5calendar .calendar .dates3 .a9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 99px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 41.0px;
+}
+.a5calendar .calendar .dates3 .a8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 41.0px;
+}
+.a5calendar .calendar .line3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 161px;
+  height              : 1px;
+  width               : 750px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a5calendar .calendar .dates4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 94px;
+  height              : 51px;
+  width               : 632px;
+  position            : absolute;
+  margin              : 0;
+  left                : 61px;
+}
+.a5calendar .calendar .dates4 .a7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 592px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 41.0px;
+}
+.a5calendar .calendar .dates4 .a6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 495px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 41.0px;
+}
+.a5calendar .calendar .dates4 .notification8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 40px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 411px;
+  border-radius       : 5px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(255, 255, 255, 1.0);
+  opacity             : 0.5;
+}
+.a5calendar .calendar .dates4 .a5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 396px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 41.0px;
+}
+.a5calendar .calendar .dates4 .a41 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 297px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 41.0px;
+}
+.a5calendar .calendar .dates4 .a32 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 198px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 41.0px;
+}
+.a5calendar .calendar .dates4 .notification9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 40px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 114px;
+  border-radius       : 5px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(255, 255, 255, 1.0);
+  opacity             : 0.5;
+}
+.a5calendar .calendar .dates4 .a210 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 99px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 41.0px;
+}
+.a5calendar .calendar .dates4 .a110 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  opacity             : 0.5;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 41.0px;
+}
+.a5calendar .calendar .line4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 63px;
+  height              : 1px;
+  width               : 750px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a5calendar .calendar .days {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 27px;
+  width               : 651px;
+  position            : absolute;
+  margin              : 0;
+  left                : 53px;
+  opacity             : 0.5;
+}
+.a5calendar .calendar .days .sun {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 60px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 26.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 36.0px;
+}
+.a5calendar .calendar .days .mon {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 60px;
+  position            : absolute;
+  margin              : 0;
+  left                : 98px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 26.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 36.0px;
+}
+.a5calendar .calendar .days .tue {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 60px;
+  position            : absolute;
+  margin              : 0;
+  left                : 196px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 26.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 36.0px;
+}
+.a5calendar .calendar .days .wed {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 60px;
+  position            : absolute;
+  margin              : 0;
+  left                : 294px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 26.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 36.0px;
+}
+.a5calendar .calendar .days .thu {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 60px;
+  position            : absolute;
+  margin              : 0;
+  left                : 392px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 26.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 36.0px;
+}
+.a5calendar .calendar .days .fri {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 60px;
+  position            : absolute;
+  margin              : 0;
+  left                : 490px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 26.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 36.0px;
+}
+.a5calendar .calendar .days .sat {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 60px;
+  position            : absolute;
+  margin              : 0;
+  left                : 589px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 26.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 36.0px;
+}
+.a5calendar .events {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 556px;
+  height              : 514px;
+  width               : 751px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a5calendar .events .line5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 512px;
+  height              : 2px;
+  width               : 750px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  opacity             : 0.1;
+}
+.a5calendar .events .a33 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 388px;
+  height              : 32px;
+  width               : 548px;
+  position            : absolute;
+  margin              : 0;
+  left                : 152px;
+}
+.a5calendar .events .a33 .meeting {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 32.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : justify;
+  line-height         : 44.0px;
+}
+.a5calendar .events .a33 .a10mins {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 454px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 26.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : right;
+  line-height         : 36.0px;
+}
+.a5calendar .events .line6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 332px;
+  height              : 2px;
+  width               : 750px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  opacity             : 0.1;
+}
+.a5calendar .events .a211 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 209px;
+  height              : 73px;
+  width               : 549px;
+  position            : absolute;
+  margin              : 0;
+  left                : 151px;
+}
+.a5calendar .events .a211 .restaurant {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 47px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  opacity             : 0.5;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 26.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : justify;
+  line-height         : 36.0px;
+}
+.a5calendar .events .a211 .wagamama {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 32.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : justify;
+  line-height         : 44.0px;
+}
+.a5calendar .events .a211 .a5mins {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 470px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 26.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : right;
+  line-height         : 36.0px;
+}
+.a5calendar .events .line7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 152px;
+  height              : 2px;
+  width               : 750px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  opacity             : 0.1;
+}
+.a5calendar .events .a111 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 55px;
+  height              : 32px;
+  width               : 550px;
+  position            : absolute;
+  margin              : 0;
+  left                : 154px;
+}
+.a5calendar .events .a111 .greenpark {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 32.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : justify;
+  line-height         : 44.0px;
+}
+.a5calendar .events .a111 .a10mins1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 456px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 26.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : right;
+  line-height         : 36.0px;
+}
+.a5calendar .events .line8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 2px;
+  width               : 750px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  opacity             : 0.1;
+}
+.a5calendar .navbar {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 128px;
+  width               : 750px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a5calendar .navbar .bounds {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 128px;
+  width               : 750px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a5calendar .navbar .right {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 58px;
+  height              : 50px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 684px;
+}
+.a5calendar .navbar .right .group {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : 42px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+}
+.a5calendar .navbar .right .group .shape {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 23px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(-180deg); /* IE 9 */
+  -webkit-transform   : rotate(-180deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-180deg);
+}
+.a5calendar .navbar .right .bounds1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a5calendar .navbar .july2018 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 60px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 287px;
+  font-family         : "Avenir-Black", Helvetica, Arial, serif;
+  font-size           : 34.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.5px;
+  line-height         : 46.0px;
+}
+.a5calendar .navbar .left {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 58px;
+  height              : 50px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 584px;
+}
+.a5calendar .navbar .left .group1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : 42px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+}
+.a5calendar .navbar .left .group1 .shape1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 23px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.a5calendar .navbar .left .bounds2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a5calendar .navbar .menu {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 58px;
+  height              : 50px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+}
+.a5calendar .navbar .menu .group2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 8px;
+  height              : 34px;
+  width               : 42px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+}
+.a5calendar .navbar .menu .group2 .line9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 2px;
+  width               : 42px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a5calendar .navbar .menu .group2 .line10 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 16px;
+  height              : 2px;
+  width               : 42px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a5calendar .navbar .menu .group2 .line11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 32px;
+  height              : 2px;
+  width               : 42px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.a5calendar .navbar .menu .bounds3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
