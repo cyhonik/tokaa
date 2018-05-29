@@ -65,6 +65,7 @@ mic.onaudioend = function () {
   // TODO MORE SUBTLE FEEDBACK!
 };
 
+let srcSet = false;
 mic.onresult = function (intent, entities) {
   if ("duration" in entities) {
     const numberOfSeconds = entities.duration.value;
@@ -75,7 +76,7 @@ mic.onresult = function (intent, entities) {
 
     if (randomContent !== undefined) {
       document.getElementById("audio").src = randomContent.path;
-      document.getElementById("audio").play();
+      srcSet = true;
     }
     else {
       console.log(possibleContent)
@@ -106,4 +107,7 @@ function kv (k, v) {
 
 document.addEventListener("click", () => {
     micElement.click();
+    if (srcSet) {
+      document.getElementById("audio").play();
+    }
 }, false);
