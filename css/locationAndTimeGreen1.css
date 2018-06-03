@@ -817,6 +817,27 @@ div {
   text-align          : left;
   line-height         : 46.0px;
 }
+.locationandtimegreen1 .back {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 39px;
+  height              : 19px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+}
+.locationandtimegreen1 .back .forwardarrow {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 14px;
+  width               : 14px;
+  position            : relative;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(-315deg); /* IE 9 */
+  -webkit-transform   : rotate(-315deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-315deg);
+}
 .locationandtimegreen1 .statusbardark {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 0px;
@@ -917,17 +938,17 @@ div {
 }
 .locationandtimegreen1 .mins {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 184px;
+  top                 : 237px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 137px;
-  font-family         : "Avenir", Helvetica, Arial, serif;
-  font-size           : 72.0px;
+  left                : 206px;
+  font-family         : "Avenir-Medium", Helvetica, Arial, serif;
+  font-size           : 25.0px;
   color               : rgba(255, 255, 255, 1.0);
   text-align          : center;
-  line-height         : 98.0px;
+  line-height         : 34.0px;
 }
 .locationandtimegreen1 .line {
   background-color    : rgba(255, 255, 255, 0.0);
@@ -956,7 +977,7 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 130px;
-  font-family         : "Avenir", Helvetica, Arial, serif;
+  font-family         : "Avenir-Medium", Helvetica, Arial, serif;
   font-size           : 18.0px;
   color               : rgba(255, 255, 255, 1.0);
   text-align          : center;
@@ -987,56 +1008,56 @@ div {
 }
 @-webkit-keyframes anima-reveal {
   0%
-
+   
   {
       opacity: 0;
     }
-
-
+  
+    
   100%
-
+   
   {
       opacity: 1;
     }
 }
 @-moz-keyframes anima-reveal {
   0%
-
+   
   {
       opacity: 0;
     }
-
-
+  
+    
   100%
-
+   
   {
       opacity: 1;
     }
 }
 @-o-keyframes anima-reveal {
   0%
-
+   
   {
       opacity: 0;
     }
-
-
+  
+    
   100%
-
+   
   {
       opacity: 1;
     }
 }
 @keyframes anima-reveal {
   0%
-
+   
   {
       opacity: 0;
     }
-
-
+  
+    
   100%
-
+   
   {
       opacity: 1;
     }
